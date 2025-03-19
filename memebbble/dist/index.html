@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>memebbble</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="header">
+  <h1>
+    <img src="https://static.wixstatic.com/media/eb/cfe_leD61c1f865455dadc12309af153a-mv2.png" alt="Crypto Icon">
+    MeMeBubble
+  </h1>
+</div>
+<div class="container">
+  <svg></svg>
+  <div class="legend">
+    <div class="timeframe-buttons">
+      <button class="timeframe-btn active" data-timeframe="1h">1H</button>
+      <button class="timeframe-btn" data-timeframe="4h">4H</button>
+      <button class="timeframe-btn" data-timeframe="24h">DAY</button>
+    </div>
+    <div class="legend-item">
+      <span>Last Updated: </span><span id="last-updated"></span>
+    </div>
+  </div>
+</div>
+<div id="tooltip"></div>
+<div id="error-message"></div>
+<!-- partial -->
+  <script src='https://d3js.org/d3.v7.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
