@@ -1,1 +1,2 @@
 # memebubble
+wudi de wo 
